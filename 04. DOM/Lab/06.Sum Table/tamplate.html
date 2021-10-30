@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sum Table</title>
+</head>
+<body>
+<table>
+    <tbody>
+    <tr><th>Product</th><th>Quantity</th><th>Cost</th><th>Row Total</th></tr>
+    <tr><td>Beer</td>   <td><input class="quantity" type="text"/></td><td><input class="cost" type="text"/></td><td><input class="subTotal" type="text" readonly="readonly" /></td></tr>
+    <tr><td>Fries</td>  <td><input class="quantity" type="text"/></td><td><input class="cost" type="text"/></td><td><input class="subTotal" type="text" readonly="readonly" /></td></tr>
+    <tr><td>Burger</td> <td><input class="quantity" type="text"/></td><td><input class="cost" type="text"/></td><td><input class="subTotal" type="text" readonly="readonly" /></td></tr>
+    <tr><td></td><td></td><td style="text-align:right">Total:</td><td><input type="text" id="sum" readonly="readonly" /></td></tr>
+    </tbody>
+</table>
+<button onclick="sumTable()">Sum</button>
+<script src="SumTable.js"></script>
+</body>
+</html>
